@@ -1,0 +1,5 @@
+peso = float(input("Qual o seu peso? "))
+maisQuinze = peso + (peso * 0.15)
+menosVinte = peso - (peso * 0.2)
+print(f"Se você engordar 15% do seu peso, estará pesando {maisQuinze}kg")
+print(f"Se você emagrecer 20% do seu peso, está pesando {menosVinte} kg")
